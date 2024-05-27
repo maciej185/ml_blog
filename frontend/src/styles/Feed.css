@@ -1,0 +1,60 @@
+.feed {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    width: 80vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+.feed > div {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+.feed > div:not(div:last-of-type) {
+    margin-right: 1rem;
+}
+
+.feed-posts {
+    flex: 5
+}
+
+.feed-posts > div:not(div:last-of-type), .feed-posts-post > div:not(div:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.feed-posts-error {
+    color: darkred;
+}
+
+.feed-side {
+    flex: 2
+}
+
+.feed-posts-post {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+
+.feed-posts-post-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed-posts-post-bottom {
+    font-size: 1.25rem;
+}
+
+.feed-posts-post-bottom > a {
+    color: black;
+    text-decoration: unset;
+    transition: 0.15s;
+}
+
+.feed-posts-post-bottom > a:hover {
+    color: gray;
+    cursor: pointer;
+}

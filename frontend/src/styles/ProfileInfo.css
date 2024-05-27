@@ -1,0 +1,24 @@
+.profile {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    width: 60vw;
+}
+
+.profile-editing {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.profile-editing-btn {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.profile-editing-btn:hover {
+    box-shadow: 0 0 0 1px black inset;
+}

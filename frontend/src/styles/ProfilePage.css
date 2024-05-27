@@ -1,0 +1,129 @@
+
+
+.profile-page > div:not(div:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.profile-page-top {
+    display: flex;
+}
+
+.profile-page-top > div {
+    flex: 1;
+}
+
+.profile-page-top > div:not(div:last-of-type) {
+    margin-right: 1rem;
+}
+
+.profile-page-top-left > img {
+    width: 100%;
+    width: 100%;
+}
+
+.profile-page-top-right > div:not(div:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.profile-page-top-right-entry > div:not(div:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+.profile-page-top-right-entry-label {
+    font-weight: 600;
+}
+
+.profile-page-top-right-entry-value {
+    padding: 0.5rem 0.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid lightgray;
+
+}
+
+.profile-page-bottom-desc > div:not(div:last-of-type), .profile-page-middle >  div:not(div:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.profile-page-bottom-desc-header, .profile-page-middle-header {
+    font-weight: 600;
+}
+
+.profile-page-middle {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.profile-page-middle-link {
+    padding: 0.375rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+}
+
+.profile-page-middle-link > a {
+    text-decoration: unset;
+    color: black;
+    transition: 0.15s;
+}
+
+.profile-page-middle-link > a:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.profile-page-posts-add {
+    display: flex;
+}
+
+.profile-page-posts-add-btn {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.profile-page-posts-add-btn:hover {
+    box-shadow: 0 0 0 1px black inset;
+}
+
+.profile-page-posts-add-btn > a {
+    text-decoration: unset;
+    color: black;
+}
+
+.profile-page-posts > div:not(div:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.profile-page-posts-header {
+    font-weight: 600;
+}
+
+.profile-page-posts-list > div:not(div:last-of-type), .profile-page-posts-list-post > div:not(div:last-of-type){
+    margin-bottom: 0.5rem;
+}
+
+.profile-page-posts-list-post {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid lightgray;
+}
+
+.profile-page-posts-list-post-title {
+    font-size: 1.125rem;
+}
+
+.profile-page-posts-list-post-title > a {
+    text-decoration: unset;
+    color: black;
+    transition: 0.15s;
+}
+
+.profile-page-posts-list-post-title > a:hover {
+    color: gray;
+}
+
+.profile-page-posts-list-post-date {
+    color: gray;
+}

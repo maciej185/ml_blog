@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+    font-weight: 300;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    --btn-border-color: black;
+    --btn-background-color: white;
+    height: 100vh;
+}
+
+body {
+    margin: unset;
+}
+
+[data-theme="dark"] {
+    background-color: rgb(13, 14, 41);
+    color: rgb(231, 227, 223);
+    --btn-border-color: white;
+    --btn-background-color: black;
+}

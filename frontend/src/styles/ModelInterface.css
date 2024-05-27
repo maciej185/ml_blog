@@ -1,0 +1,39 @@
+.post-model-info > div:not(div:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+.post-model-info-args > div:not(div:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+.post-model-info-args-arg {
+    display: flex;
+}
+
+.post-model-info-args-arg > div:not(div:last-of-type) {
+    margin-right: 1rem;
+}
+
+.post-model-info-args-arg > div {
+    flex: 1;
+}
+
+.post-model-info-predict {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+button.post-model-info-predict-btn {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    outline: unset;
+    transition: 0.15s;
+} 
+
+button.post-model-info-predict-btn:hover {
+    box-shadow: 0 0 0 1px black inset;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+:root {
+    --header-height: 4rem;
+}
+
+#root {
+    padding-top: calc(var(--header-height) + 3rem);
+}
+
+.nav {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:  var(--header-height);
+    display: flex;
+    padding: 0 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: white;
+    z-index: 1000;
+}
+
+.nav a {
+    text-decoration: unset;
+    color: black;
+    transition: 0.15s;
+}
+
+.nav a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+}
+
+.nav-user > div:not(div:last-of-type) {
+    margin-right: 0.5rem;
+}
+
+.nav-user-logout {
+    transition: 0.15s;
+}
+
+.nav-user-logout:hover {
+    cursor: pointer;
+    color: gray;
+}

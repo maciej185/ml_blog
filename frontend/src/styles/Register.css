@@ -1,0 +1,53 @@
+.register {
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    border: 1px solid black;
+    width: 25vw;
+}
+
+.register > div {
+    padding: 0.5rem;
+}
+
+.register-bottom {
+    border-top: 1px solid gray;
+}
+
+.register-top-error {
+    color: darkred;
+    margin-bottom: 1rem;
+}
+
+.register-top-form > div {
+    margin-bottom: 0.5rem;
+}
+
+.register-top-form input {
+    outline: unset;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.register-top-form-input-label {
+    margin-bottom: 0.25rem;
+}
+
+.register-top-form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.register-top-form-button > button {
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.15s;
+}
+
+.register-top-form-button > button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 1px black inset;
+}

@@ -1,0 +1,78 @@
+.post-add {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    width: 60vw;
+}
+
+.post-add-error {
+    color: darkred;
+    font-size: 1.25rem;
+}
+
+.post-add-field-label {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(87, 87, 87);
+}
+
+.post-add > div:not(div:last-of-type)  {
+    margin-bottom: 1rem;
+}
+
+.post-add > div > div:not(div:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+input.post-add-title-input {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.25rem;
+    outline: unset;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+}
+
+.post-add-text-paragraphs > textarea:not(textarea:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.post-add-text-paragraphs > textarea {
+    resize: none;
+    width: 100%;
+    outline: unset;
+    height: 5rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.post-add-text-add_paragraph, .post-add-submit, div.post-add-model-select {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.post-add-text-add_paragraph-btn, .post-add-submit-btn {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.post-add-text-add_paragraph-btn:hover, .post-add-submit-btn:hover {
+    box-shadow: 0 0 0 1px black inset;
+}
+
+select.post-add-model-select {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid lightgray;
+    outline: unset;
+}
+
+.post-add-model-desc-field-name {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}

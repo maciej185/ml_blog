@@ -1,0 +1,53 @@
+.login {
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    border: 1px solid black;
+    width: 25vw;
+}
+
+.login > div {
+    padding: 0.5rem;
+}
+
+.login-bottom {
+    border-top: 1px solid gray;
+}
+
+.login-top-error {
+    color: darkred;
+    margin-bottom: 1rem;
+}
+
+.login-top-form > div {
+    margin-bottom: 0.5rem;
+}
+
+.login-top-form input {
+    outline: unset;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.login-top-form-input-label {
+    margin-bottom: 0.25rem;
+}
+
+.login-top-form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.login-top-form-button > button {
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.15s;
+}
+
+.login-top-form-button > button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 1px black inset;
+}

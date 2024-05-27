@@ -1,0 +1,28 @@
+.forecasts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.forecast {
+    padding: 0.75rem;
+    display: flex;
+    font-size: 0.75rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecast > div:not(div:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+.forecast-pic {
+    height: 3rem;
+    width: 3rem;
+}
+
+.forecast-pic > img {
+    height: inherit;
+    width: inherit;
+}
+

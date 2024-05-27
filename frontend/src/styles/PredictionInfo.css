@@ -1,0 +1,54 @@
+.predictions {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.predictions-error {
+    color: darkred;
+    font-size: 1.25rem;
+}
+
+.predictions-field-label {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(87, 87, 87);
+}
+
+.predictions > div:not(div:last-of-type)  {
+    margin-bottom: 1rem;
+}
+
+.predictions-header {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.predictions-values {
+    flex: 1;
+}
+
+.predictions-values > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.predictions-values table, tr, td, th {
+    border: 1px solid lightgray;
+}
+
+.predictions-values > table th {
+    font-weight: 600;
+}
+
+.predictions-values > table td, th {
+    padding: 0.5rem 1rem;
+}
+
+.predictions-values-table-row-inputs > div:not(div:last-of-type) {
+    margin-bottom: 0.5rem;
+}

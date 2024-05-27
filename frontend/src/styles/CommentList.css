@@ -1,0 +1,26 @@
+.comment-list_error {
+    color: darkred;
+}
+
+.comment-list > div:not(div:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.comment-list-comment {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
+
+.comment-list-comment > div:not(div:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+.comment-list-comment-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-list-comment-top-user {
+    font-weight: 600;
+}
