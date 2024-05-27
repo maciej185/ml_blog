@@ -1,0 +1,43 @@
+services:
+  mysql:
+    image: mysql:latest
+    volumes:
+      - my_sql_volume:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: to_be_changed 
+
+  mongo:
+    image: mongo
+    volumes:
+      - mongo_volume:/data/db
+    
+  backend:
+    image: ml_blog_backend
+    environment:
+      DB_HOST: mysql
+      MONGO_HOST: mongo
+      MONGO_PORT: 27017
+    ports:
+      - 8000:8000
+    depends_on:
+     - mysql
+     - mongo
+  
+  iris_nn_api:
+    image: ml_blog_model_api
+    ports:
+      - 8001:8009
+
+  frontend:
+    image: ml_blog_front
+    ports:
+      - 1337:80
+    environment:
+      REACT_APP_BACKEND_HOST: backend
+    depends_on:
+      - backend
+
+    
+volumes:
+  my_sql_volume:
+  mongo_volume:
