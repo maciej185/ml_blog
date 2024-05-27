@@ -1,0 +1,26 @@
+[{
+    "name": "iris_nn",
+    "output_types": [
+      "string"
+    ],
+    "description": "Basic NN for predicitng iris species.",
+    "url": "//127.0.0.1:8001",
+    "args": [
+      {
+        "param_name": "SL",
+        "type": "number"
+      },
+      {
+        "param_name": "SW",
+        "type": "number"
+      },
+      {
+        "param_name": "PL",
+        "type": "number"
+      },
+      {
+        "param_name": "PW",
+        "type": "number"
+      }
+    ]
+  }]
